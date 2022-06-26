@@ -37,3 +37,7 @@ SILENT = False
 
 # Enables the settings page on http://web.archive.org if set to True.
 SETTINGS_PAGE = True
+
+# Allow resources from Wayback Machine to be saved and retrieved
+# from the cache instead of being downloaded every time it is requested
+CACHE = True
